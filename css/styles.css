@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
 /* Typography */
 
 html {
@@ -68,4 +71,62 @@ main > .tagline {
 	margin-left: 0.675rem;;
 	width: 2.65rem;
 	height: 2.65rem;
+}
+
+/* Masthead */
+.header, .footer, .header h3 { 
+	font-family: 'Montserrat', Helvetica, sans-serif; 
+	text-transform: uppercase; 
+	font-weight: normal;
+}
+
+.header {
+	top: -260px;
+	position: relative;
+}
+
+/* CV */
+.cv {line-height: 23px; margin: 0 auto;}
+.cv li { line-height: 23px; }
+.cv h2 { font-size: 26.5px; }
+.cv h1 { font-size: 32.5px; }
+
+.contact, .about, .cv { margin-bottom: 30px; }
+
+.pull-right {
+	float: right !important;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav > li {
+	position: relative;
+	display: block;
+}
+
+.nav-pills > li {
+	float: left;
+}
+
+.nav-pills > li > a {
+    border-radius: 5px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+	background-color: #eeeeee;
+	color: #485564;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+	padding: 10px 15px;
+	color:azure;
+	float: left;
+	text-decoration: none;
 }
