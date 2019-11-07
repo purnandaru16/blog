@@ -8,4 +8,4 @@ date: 2019-11-07
 2. Open Terminal.
 3. Change the current working directory to your local project.
 4. Initialize the local directory as a Git repository.
-<code>$ git init</code>
+</br><code>$ git init</code>
