@@ -5,7 +5,7 @@ date: 2019-11-07
 ---
 
 1. Create a new repository on GitHub. To avoid errors, do not initialize the new repository with README, license, or gitignore files. You can add these files after your project has been pushed to GitHub.
-[![Create Repo](https://help.github.com/assets/images/help/repository/repo-create.png)]
+![Create Repo](https://help.github.com/assets/images/help/repository/repo-create.png)
 2. Open Terminal.
 3. Change the current working directory to your local project.
 4. Initialize the local directory as a Git repository.
@@ -26,6 +26,7 @@ date: 2019-11-07
     ```
 
 7. At the top of your GitHub repository's Quick Setup page, click  to copy the remote repository URL.
+![Copy URL](https://help.github.com/assets/images/help/repository/copy-remote-repository-url-quick-setup.png)
 8. In Terminal, add the URL for the remote repository where your local repository will be pushed.
     ```sh
     $ git remote add origin remote repository URL# Sets the new remote
