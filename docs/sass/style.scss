@@ -325,7 +325,7 @@ figure {
 				display: inline;
 				list-style: none;
 				a {
-					color: rgba(255,255,255,.3);
+					color: $brand-primary;
 					padding: 4px;
 					&:hover, &:active, &:focus {
 						text-decoration: none;
