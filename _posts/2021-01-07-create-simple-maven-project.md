@@ -30,10 +30,10 @@ date: 2021-01-07
         <url-pattern>/</url-pattern>
     </servlet-mapping>
     ```
-13. Create directory Java under src
+13. Create directory **Java** under directory **src**
 14. Right click on directory, **Mark Directory As** -> **Sources Root**
 15. Under Java directory, create package **com.bootcamp**
-16. Under WEB-INF, create xml file with name **dispatcher-servlet.xml**
+16. Under **WEB-INF**, create xml file with name **dispatcher-servlet.xml**
 17. Add code below to dispatcher-servlet.xml
     ```xml
     <context:component-scan base-package="com.bootcamp"> </context:component-scan>
@@ -46,7 +46,7 @@ date: 2021-01-07
     <!-- untuk mengaktifkan spring mvc -->
     <mvc:annotation-driven />
     ```
-18. Create **HomeController.java** iside package org.bootcamp
+18. Create **HomeController.java** inside package org.bootcamp
     ```java
     package com.bootcamp;
 
@@ -74,7 +74,7 @@ date: 2021-01-07
         }
     }
     ```
-19. Under WEB-INF, create directory **views**
+19. Under **WEB-INF**, create directory **views**
 20. Add **home.jsp** inside directory **views**
     ```jsp
     <%@ page contentType="text/html;charset=UTF-8" language="java" %>
