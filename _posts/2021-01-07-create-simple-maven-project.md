@@ -4,17 +4,17 @@ title: "Create Simple Maven Project"
 date: 2021-01-07
 ---
 
-1. Open Intellij IDEA
+1. Open **Intellij IDEA**
 2. Create New Project
-3. Choose Maven template
-4. Check Create from archetype
-5. Select maven-archetype-webapp
+3. Choose **Maven** template
+4. Check **Create from archetype**
+5. Select **maven-archetype-webapp**
 6. Next
 7. Input GroupId and Artifact Name
 8. Next
 9. Next
-10. Edit pom.xml and add dependencies(refresh to download dependencies)
-11. Open web.xml and add code below
+10. Edit **pom.xml** and add dependencies(refresh to download dependencies)
+11. Open **web.xml** and add code below
     ```sh
     <!-- Add Spring MVC DispatcherServlet as front controller -->
     <servlet>
@@ -31,9 +31,9 @@ date: 2021-01-07
     </servlet-mapping>
     ```
 13. Create directory Java under src
-14. Right click on directory, Mark Directory As Sources Root
-15. Under Java directory, create package com.bootcamp
-16. Under WEB-INF, create xml file with name dispatcher-servlet.xml
+14. Right click on directory, **Mark Directory As** -> **Sources Root**
+15. Under Java directory, create package **com.bootcamp**
+16. Under WEB-INF, create xml file with name **dispatcher-servlet.xml**
 17. Add code below to dispatcher-servlet.xml
     ```sh
     <context:component-scan base-package="com.bootcamp"> </context:component-scan>
@@ -46,8 +46,8 @@ date: 2021-01-07
     <!-- untuk mengaktifkan spring mvc -->
     <mvc:annotation-driven />
     ```
-18. Create HomeController.java iside package org.bootcamp
-    ```sh
+18. Create **HomeController.java** iside package org.bootcamp
+    ```java
     package com.bootcamp;
 
     import org.springframework.stereotype.Controller;
@@ -74,8 +74,8 @@ date: 2021-01-07
         }
     }
     ```
-19. Under WEB-INF, create directory views
-20. Add home.jsp inside directory views
+19. Under WEB-INF, create directory **views**
+20. Add **home.jsp** inside directory **views**
     ```sh
     <%@ page contentType="text/html;charset=UTF-8" language="java" %>
     <%@ page isELIgnored="false" %>
