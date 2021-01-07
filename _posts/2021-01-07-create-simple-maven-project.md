@@ -15,7 +15,7 @@ date: 2021-01-07
 9. Next
 10. Edit **pom.xml** and add dependencies(refresh to download dependencies)
 11. Open **web.xml** and add code below
-    ```sh
+    ```xml
     <!-- Add Spring MVC DispatcherServlet as front controller -->
     <servlet>
         <servlet-name>dispatcher</servlet-name>
@@ -76,7 +76,7 @@ date: 2021-01-07
     ```
 19. Under WEB-INF, create directory **views**
 20. Add **home.jsp** inside directory **views**
-    ```sh
+    ```jsp
     <%@ page contentType="text/html;charset=UTF-8" language="java" %>
     <%@ page isELIgnored="false" %>
     <html>
