@@ -35,7 +35,7 @@ date: 2021-01-07
 15. Under Java directory, create package **com.bootcamp**
 16. Under WEB-INF, create xml file with name **dispatcher-servlet.xml**
 17. Add code below to dispatcher-servlet.xml
-    ```sh
+    ```xml
     <context:component-scan base-package="com.bootcamp"> </context:component-scan>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
